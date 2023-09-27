@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E_Grocery</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -37,20 +36,24 @@
                 </div>
             </div>
             <div id="content-right" class="content-right">
-                <form class="content-form">
+                <form name="contact-form" class="content-form" onsubmit="return false;">
                     <label for="your-name">Your Name</label>
-                    <input type="text" name="your-name" placeholder="First and last name">
+                    <input type="text" id="your-name" placeholder="First and last name">
+                    <p class="error-message" id="error-name"></p>
 
                     <label for="email">Email Address:</label>
-                    <input type="email" name="email" placeholder="Example@gmail.com">
+                    <input type="email" id="email" placeholder="Example@gmail.com">
+                    <p class="error-message" id="error-email"></p>
 
                     <label for="interest">What are you interested in?</label>
-                    <select type="select" name="interest">
+                    <select type="select" id="interest">
+                        <option value="">--select interest--</option>
 
-                        <option>Football</option>
-                        <option>Badminton</option>
+                        <option value="football">Football</option>
+                        <option value="badminton">Badminton</option>
                     
                     </select>
+                    <p class="error-message" id="error-interest"></p>
 
                     <button id="button" type="submit" class="button">SEND</button>
                 </form>
@@ -68,6 +71,8 @@
 
 
     <footer></footer>
+
+    <script src="js/script.js"></script>
 
 
 </body>

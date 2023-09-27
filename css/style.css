@@ -57,9 +57,7 @@ main {
 
 }
 
-.content-right {
 
-}
 
 .content-form {
     display: flex;
@@ -117,4 +115,16 @@ select {
     background-color: lightgray;
     border-radius: 50%;
     width: 1.2em;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0;
+    font-weight: bold;
+    
+}
+
+#interest {
+    margin-bottom: 9px;
 }
