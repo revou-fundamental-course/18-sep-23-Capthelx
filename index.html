@@ -10,11 +10,11 @@
 
 <body>
     <header class="navigation">
-        <div class="page-title">E-Grocery</div>
+        <div class="page-title" id="E-groc">E-Grocery</div>
         <div class="nav">
-            <a href="/" class="nav-item">Our Package</a>
-            <a href="/" class="nav-item">Call Us</a>
-            <a href="/" class="nav-item">Home</a>
+            <a href="#our-package" class="nav-item">Our Package</a>
+            <a href="#call-action" class="nav-item">Call Us</a>
+            <a href="#E-groc" class="nav-item">Home</a>
         </div>
     </header>
 
@@ -34,10 +34,21 @@
                     <img src="assets/placeholder-1-1.jpg" class="image active" alt="slider image">
                     <img src="assets/placeholder-2.jpg" class="image" alt="">
                 </div>
+                <p id="ulasan"><i>"Setiap hari beli sayur dan buah yang fresh disini"</i></p>
+                <div class="pembeli">
+                    <div><img src="assets/logo-user.png" alt="Florence" class="image2"></div>
+                    <div class="nama-pembeli">
+                        <p id="Florence"><b>Florence Hughes</b></p>
+                        <p class="pekerjaan"><i>Ibu Rumah Tangga</i></p>
+                    </div>
+                </div>
+                <div class="border-bawah">.</div>
 
             </div>
             <div id="content-right" class="content-right">
                 <form name="contact-form" class="content-form" onsubmit="return false;">
+                    <h3 id="contact-us">Contact Us</h3>
+                    <p id="sales-kami">Sales akan menghubungi anda.</p>
                     <label for="your-name">Your Name</label>
                     <input type="text" id="your-name" placeholder="First and last name">
                     <p class="error-message" id="error-name"></p>
@@ -52,7 +63,7 @@
 
                         <option value="football">Football</option>
                         <option value="badminton">Badminton</option>
-                    
+
                     </select>
                     <p class="error-message" id="error-interest"></p>
 
@@ -60,18 +71,117 @@
                 </form>
             </div>
         </div>
-        
+
+        <div class="info">
+            <div class="explain">Use this space to provide users with more information about your offer. Consider it a
+                follow-up to your headline and explain the benefits of your service or product</div>
+            <div class="list">
+                <div class="list-satuan">
+                    <div class="circle">1</div>
+                    <div class="info-desc">Your first feature, written in a form of a benefit statement.</div>
+                </div>
+                <div class="list-satuan">
+                    <div class="circle">2</div>
+                    <div class="info-desc">Your second feature, written in a form of a benefit statement.</div>
+                </div>
+                <div class="list-satuan">
+                    <div class="circle">3</div>
+                    <div class="info-desc">Your third feature, written in a form of a benefit statement.</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="our-package">
+            <div>Our Package</div>
+        </div>
+
+        <div class="list">
+            <div class="packages-row">
+                <div class="package-name">
+                    <div><img src="assets/Lampu.png" class="image2"></div>
+                    <div class="package-desc">
+                        <div class="package-title">Fresh Vegetable</div>
+                        <div class="package-subtitle">Sayuran segar langsung dari pertanian terbaik</div>
+                    </div>
+                </div>
+                <div class="package-name">
+                    <div><img src="assets/Lampu.png" class="image2"></div>
+                    <div class="package-desc">
+                        <div class="package-title">Fresh Fruit</div>
+                        <div class="package-subtitle">Buah dengan kualitas terbaik dari local <br> atau import dan harga
+                            yang
+                            menarik</div>
+                    </div>
+                </div>
+                <div class="package-name">
+                    <div><img src="assets/Lampu.png" class="image2"></div>
+                    <div class="package-desc">
+                        <div class="package-title">Instant Delivery</div>
+                        <div class="package-subtitle">Di kirim instan oleh kurir yang telah di training
+                            <br> dengan SOP untuk
+                            menjaga kondisi belanja kamu
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-bawah">.</div>
+            <div class="packages-row">
+                <div class="package-name">
+                    <div><img src="assets/Bintang.png" class="image2"></div>
+                    <div class="package-desc">
+                        <div class="package-title">Kitchen Ingredient</div>
+                        <div class="package-subtitle">Bumbu dapur lengkap untuk keperluan memasak<br> kamu</div>
+                    </div>
+                </div>
+                <div class="package-name">
+                    <div><img src="assets/Bintang.png" class="image2"></div>
+                    <div class="package-desc">
+                        <div class="package-title">Kitchen Set</div>
+                        <div class="package-subtitle">Segala jenis alat masa untuk membantu <br> kamu memasak</div>
+                    </div>
+                </div>
+                <div class="package-name">
+                    <div><img src="assets/Bintang.png" class="image2"></div>
+                    <div class="package-desc">
+                        <div class="package-title">Bunding Set</div>
+                        <div class="package-subtitle">Bingung masak apa? sudah tersedia paket untuk kamu <br> masak di
+                            dapur mu
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="closing">
+            <div class="closing-titles">
+                <div class="closing-header"><h2>Your Closing Argument Headline</h2></div>
+                <div class="closing-subtitle">Suspendisse egestas rhoncus urna in bibendum. Donec urna neque, euismod
+                    sed justo quis, convallis tincidunt risus. Phasellus fringilla odio vel erat fringilla, </div>
+            </div>
+            <div class="action" id="call-action"><a href="" class="link">Call to Action</a></div>
+        </div>
+
+
+
+
+
 
     </main>
 
-    <div id="our-products">
-        <div class="circle">
-            1
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-logo">Moqups</div>
+            <div class="term-policy">
+                <div class="terms"><a href="" class="link2">Terms of service</a></div>
+                <div class="policy"><a href="" class="link2">Privacy Policy</a></div>
+            </div>
+            <div class="kopirek">&copy 2019 Moqups</div>
         </div>
-    </div>
-
-
-    <footer></footer>
+        
+    </footer>
 
     <script src="js/script.js"></script>
 
